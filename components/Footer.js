@@ -1,14 +1,14 @@
+import Link from "next/link";
 
 export default function Footer (){
     return (
         <footer>
-            <a
-            href="https://developers.wpengine.com"
+            <Link
+            href="https://htmyell.com"
             target="_blank"
-            rel="noopener noreferrer"
             >
-            Part of the WP Engine Headless Developers Road Map 🗺️ 
-            </a>
+            Copyright 2023 | Htmyell Design & Development
+            </Link>
         </footer>
     )
 }
